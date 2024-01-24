@@ -14,9 +14,19 @@ Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 |  Gretchen | gretchenlam | `ZipCodeQueryService`       | `ZipCodeController`       |
 ```
 
-Repo: https://github.com/ucsb-cs156-w24/team01-w24-7pm-1
+* TODO: Correct the links to repo below,
+  then delete this TODO.  Replace it with
+  a link to your repo, e.g.
+  https://github.com/ucsb-cs156-w24/w24-5pm-2-team01
 
-On Heroku: https://team01.dokku-13.cs.ucsb.edu
+Repo: https://ucsb-cs156-w24/STARTER-team01
+
+* TODO: Correct the links to app on Dokku below,
+  then delete this TODO.  Replace it with
+  a link to your running app on Dokku, e.g.
+  https://team01.dokku-00.cs.ucsb.edu
+
+On Heroku: https://team01.dokku-00.cs.ucsb.edu
 
 ## About this repo
 
