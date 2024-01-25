@@ -28,7 +28,6 @@ import java.util.Map;
 
 import org.springframework.http.HttpHeaders;
 
-
 @WebMvcTest(value = PublicHolidaysController.class)
 public class PublicHolidaysControllerTests {
   private ObjectMapper mapper = new ObjectMapper();
@@ -42,7 +41,7 @@ public class PublicHolidaysControllerTests {
   public void test_getPublicHoliday() throws Exception {
 
     String fakeJsonResult="{ \"fake\" : \"result\" }";
-    String year = "2024";
+    String year = "2023";
     String countryCode = "us";
 
     when(mockPublicHolidayQueryService.getJSON(eq(year),eq(countryCode))).thenReturn(fakeJsonResult);

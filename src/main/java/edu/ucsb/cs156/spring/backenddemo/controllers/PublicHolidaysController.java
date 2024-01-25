@@ -39,5 +39,7 @@ public class PublicHolidaysController {
         String result = publicHolidayQueryService.getJSON(year, countryCode);
         return ResponseEntity.ok().body(result);
     }
-
 }
+
+
+

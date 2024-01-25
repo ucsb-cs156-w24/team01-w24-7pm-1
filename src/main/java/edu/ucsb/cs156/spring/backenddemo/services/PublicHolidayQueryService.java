@@ -29,10 +29,10 @@ public class PublicHolidayQueryService {
         restTemplate = restTemplateBuilder.build();
     }
 
-    public static final String ENDPOINT = "\thttps://date.nager.at/api/v2/publicholidays/{year}/{countryCode}";
+    public static final String ENDPOINT = "https://date.nager.at/api/v2/publicholidays/{year}/{countryCode}";
 
     public String getJSON(String year, String countryCode) throws HttpClientErrorException {
-        log.info("year={},countryCode={}", year,countryCode);
+        //log.info("year={}, countryCode={}", year,countryCode);
 
         HttpHeaders headers = new HttpHeaders();
         headers.setAccept(List.of(MediaType.APPLICATION_JSON));
@@ -48,7 +48,4 @@ public class PublicHolidayQueryService {
 
         return re.getBody();
     }
-
-   
-
 }
