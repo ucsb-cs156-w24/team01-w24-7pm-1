@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
 import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
+
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.header;
 
 @RestClientTest(UniversityQueryService.class)
@@ -26,6 +27,7 @@ public class UniversityQueryServiceTests {
 
         String name = "UCSB";
         String expectedURL = UniversityQueryService.ENDPOINT.replace("{name}", name);
+        
         String fakeJsonResult = "{ \"fake\" : \"result\" }";
 
         this.mockRestServiceServer.expect(requestTo(expectedURL))
