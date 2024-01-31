@@ -56,4 +56,6 @@ public class PublicHolidaysControllerTests {
 
     assertEquals(fakeJsonResult, responseString);
   }
+
 }
+
