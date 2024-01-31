@@ -1,38 +1,21 @@
-# STARTER-team01
+# w24-7pm-2-team01
 
 Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 
-* TODO: Update the following table, then delete this line that says "TODO".
-
 ```
-|   Name    | GitHub Id |  Service                    | Controller                |
-|-----------|-----------|-----------------------------|---------------------------|
-|           |           | `LocationQueryService`      | `LocationController`      |
-|           |           | `PublicHolidayQueryService` | `PublicHolidayController` |
-|           |           | `TidesQueryService`         | `TidesController`         |
-|           |           | `UniversityQueryService`    | `UniversityController`    |
-|           |           | `ZipCodeQueryService`       | `ZipCodeController`       |
+|   Name    | GitHub Id   |  Service                    | Controller                |
+|-----------|-------------|-----------------------------|---------------------------|
+|   Zeel    |   Ze-el     | `JokeQueryService`          | `JokeController`          |
+|   Liam    | liamlizard  | `LocationQueryService`      | `LocationController`      |
+|   Daoyi   | Daoyijiucsb | `PublicHolidayQueryService` | `PublicHolidayController` |
+|   James   |jamespflaging| `TidesQueryService`         | `TidesController`         |
+|   Owen    |  owenjpark  | `UniversityQueryService`    | `UniversityController`    |
+|  Gretchen | gretchenlam | `ZipCodeQueryService`       | `ZipCodeController`       |
 ```
 
+Repo: https://github.com/ucsb-cs156-w24/team01-w24-7pm-1
 
-* TODO: Change the title of this README
-  in the text `# STARTER-team01` above
-  to match the name of your repo, i. e., `w24-5pm-2-team01`, then delete
-  this TODO item.
-
-* TODO: Correct the links to repo below,
-  then delete this TODO.  Replace it with
-  a link to your repo, e.g.
-  https://github.com/ucsb-cs156-w24/w24-5pm-2-team01
-
-Repo: https://ucsb-cs156-w24/STARTER-team01
-
-* TODO: Correct the links to app on Dokku below,
-  then delete this TODO.  Replace it with
-  a link to your running app on Dokku, e.g.
-  https://team01.dokku-00.cs.ucsb.edu
-
-On Heroku: https://team01.dokku-00.cs.ucsb.edu
+On Heroku: http://team01.dokku-13.cs.ucsb.edu/swagger-ui/index.html
 
 ## About this repo
 
