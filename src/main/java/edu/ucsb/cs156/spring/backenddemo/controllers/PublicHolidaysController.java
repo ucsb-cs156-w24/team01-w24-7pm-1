@@ -39,6 +39,3 @@ public class PublicHolidaysController {
         return ResponseEntity.ok().body(result);
     }
 }
-
-
-
