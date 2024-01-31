@@ -21,9 +21,7 @@ import org.springframework.web.client.HttpClientErrorException;
 @Service
 public class PublicHolidayQueryService {
 
-
     private final RestTemplate restTemplate;
-
     public PublicHolidayQueryService(RestTemplateBuilder restTemplateBuilder) {
         restTemplate = restTemplateBuilder.build();
     }
