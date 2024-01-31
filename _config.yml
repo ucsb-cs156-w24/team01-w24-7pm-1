@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-w24/team01-w24-7pm-1
 owner: ucsb-cs156-w24
 repo_name: team01-w24-7pm-1
-pull_requests: [{"author":{"id":"U_kgDOBXd_vw","is_bot":false,"login":"gretchenlam","name":""},"headRefName":"Gretchen-ZipCode","number":37,"title":"Add ZipCode Service and Test","url":"https://github.com/ucsb-cs156-w24/team01-w24-7pm-1/pull/37"},{"author":{"id":"U_kgDOB09jxQ","is_bot":false,"login":"Daoyijiucsb","name":"Daoyi"},"headRefName":"Daoyi-HomeController","number":32,"title":"Change Member and Repo in HomeController","url":"https://github.com/ucsb-cs156-w24/team01-w24-7pm-1/pull/32"}]
+pull_requests: [{"author":{"id":"U_kgDOB09jxQ","is_bot":false,"login":"Daoyijiucsb","name":"Daoyi"},"headRefName":"Daoyi-HomeController","number":32,"title":"Change Member and Repo in HomeController","url":"https://github.com/ucsb-cs156-w24/team01-w24-7pm-1/pull/32"}]
