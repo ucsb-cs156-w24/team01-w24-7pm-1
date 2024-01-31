@@ -18,6 +18,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 
+@Slf4j
 @Service
 public class ZipCodeQueryService {
     private final RestTemplate restTemplate;
@@ -28,7 +29,7 @@ public class ZipCodeQueryService {
     public static final String ENDPOINT = "http://api.zippopotam.us/us/{zipcode}";
 
     public String getJSON(String zipcode) throws HttpClientErrorException {
-       //log.info("zipcode={}", zipcode);
+       log.info("zipcode={}", zipcode);
        HttpHeaders headers = new HttpHeaders();
        headers.setAccept(List.of(MediaType.APPLICATION_JSON));
        headers.setContentType(MediaType.APPLICATION_JSON);
