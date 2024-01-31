@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-w24/team01-w24-7pm-1
 owner: ucsb-cs156-w24
 repo_name: team01-w24-7pm-1
-pull_requests: [{"author":{"id":"U_kgDOB09jxQ","is_bot":false,"login":"Daoyijiucsb","name":"Daoyi"},"headRefName":"Daoyi-HomeController","number":32,"title":"Change Member and Repo in HomeController","url":"https://github.com/ucsb-cs156-w24/team01-w24-7pm-1/pull/32"}]
+pull_requests: [{"author":{"id":"MDQ6VXNlcjgyNzc3NDU2","is_bot":false,"login":"liamlizard","name":""},"headRefName":"Liam-READMEFixes","number":39,"title":"README edits","url":"https://github.com/ucsb-cs156-w24/team01-w24-7pm-1/pull/39"},{"author":{"id":"U_kgDOB09jxQ","is_bot":false,"login":"Daoyijiucsb","name":"Daoyi"},"headRefName":"Daoyi-HomeController","number":32,"title":"Change Member and Repo in HomeController","url":"https://github.com/ucsb-cs156-w24/team01-w24-7pm-1/pull/32"}]
